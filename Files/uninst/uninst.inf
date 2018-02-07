@@ -1,0 +1,90 @@
+﻿#Additional uninstall tasks
+#This file uses UTF-8 encoding
+#
+#Empty lines and lines beginning with # are ignored
+#
+#Add uninstallers for GIMP add-ons that should be removed together with GIMP like this:
+#Run:<description>/<full path to uninstaller>/<parameters for automatic uninstall>
+#
+#The file is parsed in reverse order
+
+RegKeyEmpty:HKCR/GIMP-2.8-xcf
+RegKeyEmpty:HKCR/GIMP-2.8-xcf\DefaultIcon
+RegKeyEmpty:HKCR/GIMP-2.8-xcf\shell
+RegKeyEmpty:HKCR/GIMP-2.8-xcf\shell\open
+RegKeyEmpty:HKCR/GIMP-2.8-xcf\shell\open\command
+RegKeyEmpty:HKCR/.xcf
+RegVal:HKCR/GIMP-2.8-xcf\
+RegVal:HKCR/GIMP-2.8-xcf\DefaultIcon\
+RegVal:HKCR/GIMP-2.8-xcf\shell\open\command\
+RegVal:HKCR/.xcf\
+RegKey:HKCR/giffile\shell\Edit with GIMP
+RegVal:HKCR/giffile\shell\Edit with GIMP\
+RegVal:HKCR/giffile\shell\Edit with GIMP\command\
+RegKeyEmpty:HKCR/GIMP-2.8-gih
+RegKeyEmpty:HKCR/GIMP-2.8-gih\DefaultIcon
+RegKeyEmpty:HKCR/GIMP-2.8-gih\shell
+RegKeyEmpty:HKCR/GIMP-2.8-gih\shell\open
+RegKeyEmpty:HKCR/GIMP-2.8-gih\shell\open\command
+RegKeyEmpty:HKCR/.gih
+RegVal:HKCR/GIMP-2.8-gih\
+RegVal:HKCR/GIMP-2.8-gih\DefaultIcon\
+RegVal:HKCR/GIMP-2.8-gih\shell\open\command\
+RegVal:HKCR/.gih\
+RegKeyEmpty:HKCR/GIMP-2.8-gbr
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\DefaultIcon
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell\open
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell\open\command
+RegKeyEmpty:HKCR/.gbr
+RegVal:HKCR/GIMP-2.8-gbr\
+RegVal:HKCR/GIMP-2.8-gbr\DefaultIcon\
+RegVal:HKCR/GIMP-2.8-gbr\shell\open\command\
+RegVal:HKCR/.gbr\
+RegKeyEmpty:HKCR/GIMP-2.8-gbr
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\DefaultIcon
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell\open
+RegKeyEmpty:HKCR/GIMP-2.8-gbr\shell\open\command
+RegKeyEmpty:HKCR/.gpb
+RegVal:HKCR/GIMP-2.8-gbr\
+RegVal:HKCR/GIMP-2.8-gbr\DefaultIcon\
+RegVal:HKCR/GIMP-2.8-gbr\shell\open\command\
+RegVal:HKCR/.gpb\
+RegKeyEmpty:HKCR/GIMP-2.8-pat
+RegKeyEmpty:HKCR/GIMP-2.8-pat\DefaultIcon
+RegKeyEmpty:HKCR/GIMP-2.8-pat\shell
+RegKeyEmpty:HKCR/GIMP-2.8-pat\shell\open
+RegKeyEmpty:HKCR/GIMP-2.8-pat\shell\open\command
+RegKeyEmpty:HKCR/.pat
+RegVal:HKCR/GIMP-2.8-pat\
+RegVal:HKCR/GIMP-2.8-pat\DefaultIcon\
+RegVal:HKCR/GIMP-2.8-pat\shell\open\command\
+RegVal:HKCR/.pat\
+RegKey:HKCR/jpegfile\shell\Edit with GIMP
+RegVal:HKCR/jpegfile\shell\Edit with GIMP\
+RegVal:HKCR/jpegfile\shell\Edit with GIMP\command\
+RegKey:HKCR/jpegfile\shell\Edit with GIMP
+RegVal:HKCR/jpegfile\shell\Edit with GIMP\
+RegVal:HKCR/jpegfile\shell\Edit with GIMP\command\
+RegKey:HKCR/pngfile\shell\Edit with GIMP
+RegVal:HKCR/pngfile\shell\Edit with GIMP\
+RegVal:HKCR/pngfile\shell\Edit with GIMP\command\
+RegKey:HKCR/svgfile\shell\Edit with GIMP
+RegVal:HKCR/svgfile\shell\Edit with GIMP\
+RegVal:HKCR/svgfile\shell\Edit with GIMP\command\
+RegKey:HKCR/TIFImage.Document\shell\Edit with GIMP
+RegVal:HKCR/TIFImage.Document\shell\Edit with GIMP\
+RegVal:HKCR/TIFImage.Document\shell\Edit with GIMP\command\
+RegKey:HKCR/TIFImage.Document\shell\Edit with GIMP
+RegVal:HKCR/TIFImage.Document\shell\Edit with GIMP\
+RegVal:HKCR/TIFImage.Document\shell\Edit with GIMP\command\
+RegKey:HKCR/Paint.Picture\shell\Edit with GIMP
+RegVal:HKCR/Paint.Picture\shell\Edit with GIMP\
+RegVal:HKCR/Paint.Picture\shell\Edit with GIMP\command\
+RegKey:HKCR/icofile\shell\Edit with GIMP
+RegVal:HKCR/icofile\shell\Edit with GIMP\
+RegVal:HKCR/icofile\shell\Edit with GIMP\command\
+RegKey:HKCR/wmffile\shell\Edit with GIMP
+RegVal:HKCR/wmffile\shell\Edit with GIMP\
+RegVal:HKCR/wmffile\shell\Edit with GIMP\command\
